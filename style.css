@@ -5,7 +5,7 @@ body {
 
 /* Navbar */
 .navbar {
-  background-color: #1a1a1a;
+  background-color: #252525;
   padding: 15px 30px;
   display: flex;
   align-items: center;
@@ -137,7 +137,9 @@ body {
     text-align: center;
     width: 100%;
   }
-  
+  .footer a{
+    text-decoration: none;
+  }
   .footer-content {
     display: flex;
     flex-direction: column;
@@ -156,10 +158,11 @@ body {
   .about-section {
     height: 100vh;
     padding: 60px 20px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 5px;
   }
   
   .container {
@@ -258,4 +261,41 @@ body {
 
 .contact-info p {
   margin: 5px 0;
+}
+
+/* service section  */
+.services {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.service-box {
+  background-color: #fff;
+  padding: 25px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+.service-box h3 {
+  font-size: 22px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+.service-box p {
+  font-size: 15px;
+  color: #555;
 }
